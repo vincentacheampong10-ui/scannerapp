@@ -3,6 +3,7 @@ package com.pluralsight;
 import java.util.Scanner;
 
 public class ScannerExample {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -17,9 +18,12 @@ public class ScannerExample {
         System.out.print("How tall are you in cm?: ");
         int height= scanner.nextInt();
         System.out.println("You are "+ height+"cm");
+        String heights= scanner.nextLine();
 
-        System.out.println("Did you exercise yesterday? (True/False): ");
-        boolean exercise= scanner.nextBoolean();
+
+           
+
+
 
 
 
